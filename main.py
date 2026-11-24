@@ -21,6 +21,8 @@ TEXT = (
 def main() -> None:
     assert 1 <= len(TEXT) <= 200, "entry must be 1-200 characters, got %d" % len(TEXT)
     assert "\n" not in TEXT, "entry must be a single line"
+    # No trailing newline: the gate counts every character of entry.txt,
+    # so the file holds exactly the line, nothing else.
     os.umask(0o022)
     os.makedirs("/output", exist_ok=True)
     path = "/output/entry.txt"
