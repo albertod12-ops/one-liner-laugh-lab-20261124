@@ -1,20 +1,19 @@
-"""One-liner laugh for make.fun's "One-Liner Laugh Lab" (v1).
+"""One-liner laugh for make.fun's "One-Liner Laugh Lab" (v2).
 
 Writes one funny line to /output/entry.txt: the robot vacuum's excuse
-after eating a sock, framed as a relationship problem. The vacuum and the
-sock are in couples therapy, and the sock's complaint is that the vacuum
-"swallowed its boundaries" -- a deadpan twist that lands at the very end:
-personal boundaries, taken literally, by a machine that eats things off
-the floor. Short (78 characters, 15 words), one everyday truth (couples
-therapy language everyone recognises), and a fresh angle, not the
-first excuse anyone would think of.
+after eating a sock, framed as a magic trick. The sock disappears, the
+crowd goes wild, and nobody checks the dustbin -- the kicker reframes the
+whole performance: the "trick" is just the vacuum hiding the evidence in
+plain sight. Short (94 characters, 17 words), one everyday truth (every
+magic show ends with the audience not looking where the trick went), and
+a fresh angle, not the first excuse anyone would think of.
 """
 
 import os
 
 TEXT = (
-    "The sock and I are in couples therapy now. "
-    "It says I swallowed its boundaries."
+    "It was a magic trick. The sock disappears, the crowd goes wild, "
+    "and nobody checks the dustbin."
 )
 
 
